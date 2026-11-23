@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NextSDE · Learn, practice, build</title>
+  <meta name="description" content="Solve FAANG interview questions from LeetCode and non LeetCode collections. Learn visually and practice low level design centered on concurrency and design patterns.">
+  <meta property="og:title" content="NextSDE">
+  <meta property="og:description" content="Learn the idea. Watch it run. Solve the question.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="media/practice-light.webp">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="media/nextsde-icon-64.png"><link rel="apple-touch-icon" href="media/nextsde-icon-180.png">
+  <script>try{const saved=localStorage.getItem('gi_theme');const t=saved||'light';if(!saved){localStorage.setItem('gi_theme',t);localStorage.setItem('llm-course-theme',t)}document.documentElement.dataset.theme=t==='dark'?'dark':'light'}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="shared/hub-nav.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="site-config.js"></script>
+  <script src="home.js" defer></script>
+  <script src="app-links.js" defer></script>
+</head>
+<body>
+<script src="shared/hub-nav.js"></script>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> One workspace for your next interview</span>
+      <h1 id="hero-title">Learn the idea. <span>Then make it work.</span></h1>
+      <p class="hero-lede">All your FAANG practice in one place: LeetCode and non LeetCode questions, visual lessons, and LLD centered on concurrency and design patterns.</p>
+    </div>
+  </section>
+
+  <section class="company-strip container" aria-label="Company question tags">
+    <p>Explore questions tagged at</p>
+    <div class="company-list">
+      <a href="/" aria-label="Practice Google questions"><img src="media/google.svg" alt="" width="24" height="24">Google</a>
+      <a href="/" aria-label="Practice Amazon questions"><img src="media/amazon.svg" alt="" width="24" height="24">Amazon</a>
+      <a href="/" aria-label="Practice Meta questions"><img src="media/meta.svg" alt="" width="24" height="24">Meta</a>
+      <a href="/" aria-label="Practice Apple questions"><img class="apple-mark" src="media/apple.svg" alt="" width="24" height="24">Apple</a>
+      <a href="/" aria-label="Practice Netflix questions"><img src="media/netflix.svg" alt="" width="24" height="24">Netflix</a>
+      <a href="/" aria-label="Practice Microsoft questions"><img src="media/microsoft.svg" alt="" width="24" height="24">Microsoft</a>
+    </div>
+  </section>
+
+  <section class="os-feature section ai-feature" id="practice-feature" aria-labelledby="practice-title"><div class="container os-layout ai-layout">
+    <div class="os-copy ai-copy reveal"><span class="section-kicker">Interview practice · 2,000+ questions</span><h2 id="practice-title">Solve the questions<br>FAANG actually asks.</h2><p>About 1,600 company tagged LeetCode problems, plus 500+ non LeetCode questions taken from real interview write-ups. Every non LeetCode question comes with answers: brute force to optimal, with code, complexity, and verified test cases.</p><div class="os-points"><span><i class="ph ph-buildings" aria-hidden="true"></i> Filter by company, difficulty, and topic</span><span><i class="ph ph-list-numbers" aria-hidden="true"></i> Blind 75, Top 150, and Top 300 sets</span><span><i class="ph ph-code" aria-hidden="true"></i> C++ editor that runs 20 test cases</span><span><i class="ph ph-play" aria-hidden="true"></i> Step-through visual for every approach</span></div><a class="button button-primary" href="/">Start practicing <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+    <a class="bleed-right os-preview ai-preview reveal" href="/" aria-label="Open interview practice"><img src="media/practice.webp" data-src-dark="media/practice.webp" data-src-light="media/practice-light.webp" alt="Practice page listing company tagged questions with filters" width="1440" height="852" loading="lazy"></a>
+  </div></section>
+
+  <section class="os-feature section ai-feature" id="lld-feature" aria-labelledby="lld-title"><div class="container os-layout ai-layout flip-layout">
+    <a class="bleed-left os-preview ai-preview reveal" href="/lld/" aria-label="Open low level design practice"><img src="media/lldai-2.webp" data-src-dark="media/lldai-2.webp" data-src-light="media/lldai-2-light.webp" alt="Low level design workspace with an AI implementer" width="1440" height="852" loading="lazy"></a>
+    <div class="os-copy ai-copy reveal"><span class="section-kicker">Low level design · 62 problems</span><h2 id="lld-title">Real LLD rounds,<br>built for concurrency.</h2><p>Design problems reported from Amazon, Google, Uber, Stripe, and more. 38 of them demand thread-safe concurrent code. Pick the design patterns, guide an AI implementer class by class, and prove it with acceptance tests.</p><div class="os-points"><span><i class="ph ph-lock-simple" aria-hidden="true"></i> Blocking queues, thread pools, and deadlock-free ledgers</span><span><i class="ph ph-puzzle-piece" aria-hidden="true"></i> Strategy, State, Observer, and more patterns</span><span><i class="ph ph-robot" aria-hidden="true"></i> Direct an AI implementer, one class at a time</span><span><i class="ph ph-check-circle" aria-hidden="true"></i> Acceptance tests decide when you are done</span></div><a class="button button-primary" href="/lld/">Open LLD practice <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+  </div></section>
+
+  <section class="os-feature section ai-feature" id="resume-feature" aria-labelledby="resume-title"><div class="container os-layout ai-layout">
+    <div class="os-copy ai-copy reveal"><span class="section-kicker">Resume builder</span><h2 id="resume-title">A resume tailored<br>to every job.</h2><p>Paste a job description, then bring your experience as text, PDFs, GitHub repositories, or links. The builder pulls out the evidence, writes a tailored resume, reviews and revises it, then gives you an ATS-readable PDF and editable LaTeX.</p><div class="os-points"><span><i class="ph ph-target" aria-hidden="true"></i> Tailored to the job description</span><span><i class="ph ph-github-logo" aria-hidden="true"></i> Evidence from your GitHub projects</span><span><i class="ph ph-magnifying-glass" aria-hidden="true"></i> Reviewed and revised before export</span><span><i class="ph ph-file-pdf" aria-hidden="true"></i> ATS-readable PDF and editable LaTeX</span></div><a class="button button-primary" href="/resume/">Build your resume <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+    <a class="bleed-right os-preview ai-preview reveal" href="/resume/" aria-label="Open the resume builder"><img src="media/resume-templates.webp" data-src-dark="media/resume-templates.webp" data-src-light="media/resume-templates-light.webp" alt="Resume builder with template choices" width="1440" height="852" loading="lazy"></a>
+  </div></section>
+
+  <section class="section why container" id="why" aria-labelledby="why-title">
+    <div class="section-heading reveal">
+      <div><span class="section-kicker">Why this workspace</span><h2 id="why-title">A complete path from<br>concept to confidence</h2></div>
+      <p>Learn the underlying idea, see it behave, then practice the kind of question you will face.</p>
+    </div>
+    <div class="benefit-grid">
+      <article class="benefit-card reveal"><span class="benefit-icon"><i class="ph ph-buildings" aria-hidden="true"></i></span><h3>Practice by company</h3><p>Solve FAANG questions from LeetCode and non LeetCode collections. Filter by company, round, difficulty, and topic.</p></article>
+      <article class="benefit-card reveal"><span class="benefit-icon"><i class="ph ph-cube" aria-hidden="true"></i></span><h3>See concepts in 3D</h3><p>Use interactive labs for data structures, algorithms, and operating systems.</p></article>
+      <article class="benefit-card reveal"><span class="benefit-icon"><i class="ph ph-code" aria-hidden="true"></i></span><h3>Build real systems</h3><p>Practice LLD centered on concurrency and design patterns, with code, tests, and guided feedback.</p></article>
+      <article class="benefit-card reveal"><span class="benefit-icon"><i class="ph ph-file-text" aria-hidden="true"></i></span><h3>Prepare to apply</h3><p>Turn your experience and a job description into a resume you can review and export.</p></article>
+    </div>
+  </section>
+
+  <section class="numbers container reveal" aria-label="Workspace at a glance">
+    <div><strong data-stat="questions">2,107</strong><span>Interview questions</span></div>
+    <div><strong data-stat="unique">513</strong><span>Beyond LeetCode</span></div>
+    <div><strong>210</strong><span>Course lessons</span></div>
+    <div><strong>51</strong><span>Design problems</span></div>
+  </section>
+
+
+
+  <section class="os-feature section" id="os-visual" aria-labelledby="os-title"><div class="container os-layout">
+    <div class="os-copy reveal"><span class="section-kicker">Operating systems · 13 modules</span><h2 id="os-title">A whole operating system,<br>simulated in 3D.</h2><p>Start inside the computer, then watch the OS at work: processes and CPU scheduling, threads and locks, deadlock, system calls, paging and virtual memory, file systems, and disk I/O. Every module has live 3D labs you can step through.</p><div class="os-points"><span><i class="ph ph-cpu" aria-hidden="true"></i> Processes, threads, and scheduling</span><span><i class="ph ph-lock-simple" aria-hidden="true"></i> Synchronization and deadlock</span><span><i class="ph ph-memory" aria-hidden="true"></i> Memory, paging, and virtual memory</span><span><i class="ph ph-hard-drives" aria-hidden="true"></i> File systems, storage, and I/O</span></div><a class="button button-primary" href="/courses/os-module-01.html">Start the OS course <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+    <a class="bleed-right os-preview reveal" href="/courses/operating-systems/computer-foundations/inside-a-computer/" aria-label="Open Inside a Computer, Operating Systems lesson 1"><img src="media/assembled.png" data-src-dark="media/course-learning-dark.png" data-src-light="media/assembled.png" alt="Exploded 3D computer showing the motherboard, processor, memory, storage, and cooling system" width="1440" height="1000" loading="lazy"></a>
+  </div></section>
+
+  <section class="os-feature section dsa-feature" id="dsa-visual" aria-labelledby="dsa-title"><div class="container os-layout dsa-layout">
+    <a class="bleed-left os-preview ai-preview dsa-preview reveal" href="/courses/queues.html" aria-label="Open the Queues lesson"><span class="dsa-stage" id="dsa-stage" aria-hidden="true"><span class="queue-ring"><span class="queue-center">FIFO<span>first in · first out</span></span></span><span class="queue-metrics"><span class="queue-front">FRONT <b>2</b></span><span class="queue-action">ENQUEUE 53</span><span class="queue-rear">REAR <b>6</b></span></span></span></a>
+    <div class="os-copy dsa-copy reveal"><span class="section-kicker">Algorithms and data structures · 47 lessons</span><h2 id="dsa-title">Watch every data structure<br>do its job.</h2><p>Arrays, linked lists, stacks, queues, heaps, trees, graphs, and dynamic programming. Every lesson has a live 3D lab: enqueue a value, pop a node, or run Dijkstra, and see which pointer moves and why.</p><div class="os-points"><span><i class="ph ph-stack" aria-hidden="true"></i> Arrays, lists, stacks, and queues</span><span><i class="ph ph-tree-structure" aria-hidden="true"></i> Trees, heaps, tries, and union-find</span><span><i class="ph ph-graph" aria-hidden="true"></i> Graphs, shortest paths, and spanning trees</span><span><i class="ph ph-grid-four" aria-hidden="true"></i> Sorting, sliding windows, and dynamic programming</span></div><a class="button button-primary" href="/courses/">Browse all lessons <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+  </div></section>
+
+  <section class="os-feature section ai-feature" id="ai-course" aria-labelledby="ai-title"><div class="container os-layout ai-layout">
+    <div class="os-copy ai-copy reveal"><span class="section-kicker">AI course · 2 courses, 24 chapters</span><h2 id="ai-title">Understand the AI<br>you build with.</h2><p>Learn how large language models work, from tokens and training to how a base model becomes an assistant. Then learn to use them well: context windows, picking a model, deep research, and coding with an AI editor.</p><div class="os-points"><span><i class="ph ph-brain" aria-hidden="true"></i> How LLMs work, step by step</span><span><i class="ph ph-text-aa" aria-hidden="true"></i> Tokens, training, and fine-tuning</span><span><i class="ph ph-code" aria-hidden="true"></i> Coding with an AI editor</span><span><i class="ph ph-magnifying-glass" aria-hidden="true"></i> Search, research, and your own documents</span></div><div class="ai-actions"><a class="button button-primary" href="/courses/intro-to-llms.html">Start How LLMs Work <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a><a class="button button-outline" href="/courses/using-llms.html">Using LLMs in practice</a></div></div>
+    <a class="bleed-right os-preview ai-preview ai-chat-plate reveal" href="/courses/using-llms.html#c2" aria-label="Open Using LLMs: one conversation, one stream of tokens"><span class="ai-chat-card" id="ai-chat"><span class="ai-chat-stage"><img class="ai-chat-poster" src="media/ai-course.webp" data-src-dark="media/ai-course.webp" data-src-light="media/ai-course-light.webp" alt="How LLMs Work course page" width="1440" height="852" loading="lazy"></span></span></a>
+  </div></section>
+
+  <section class="journey" id="journey" aria-labelledby="journey-title"><div class="container">
+    <div class="section-heading reveal"><div><span class="section-kicker">Your learning journey</span><h2 id="journey-title">From first look<br>to final round</h2></div><p>A practical sequence you can repeat for every new topic or interview loop.</p></div>
+    <ol class="journey-steps reveal"><li><span>01</span><h3>Understand</h3><p>Read the explanation and inspect the visual model.</p></li><li><span>02</span><h3>Experiment</h3><p>Change inputs and watch the behavior step by step.</p></li><li><span>03</span><h3>Solve</h3><p>Write code, run cases, and compare approaches.</p></li><li><span>04</span><h3>Apply</h3><p>Practice design and present your work clearly.</p></li></ol>
+  </div></section>
+
+  <section class="section faq container" id="faq" aria-labelledby="faq-title"><div class="section-heading reveal"><div><span class="section-kicker">Common questions</span><h2 id="faq-title">Before you begin</h2></div><p>What is inside the workspace and where to start.</p></div><div class="faq-list reveal">
+    <details><summary>Can I practice questions by company?</summary><p>Yes. The practice page has company tags, problem sets, and filters for topic, difficulty, and interview round.</p></details>
+    <details><summary>Are the courses interactive?</summary><p>The data structures, algorithms, and operating systems courses include visual lessons and interactive 3D labs.</p></details>
+    <details><summary>Can I run my code here?</summary><p>Practice problems include an editor and test console. LLD problems focus on concurrency and design patterns in a coding workspace with acceptance tests.</p></details>
+    <details><summary>Where should I start?</summary><p>Choose a question if you already know the topic. Open a course first if you want to build the concept from the ground up.</p></details>
+    <details><summary>What is in the resume builder?</summary><p>You can bring in a job description, review a draft, choose a template, and export the result.</p></details>
+    <details><summary>Do I need to follow the paths in order?</summary><p>No. Practice, courses, low level design, and the resume builder are separate paths. Use the one that fits your next step.</p></details>
+  </div></section>
+
+  <section class="contact section" id="contact" aria-labelledby="contact-title"><div class="container contact-layout reveal"><div><span class="section-kicker">Contact us</span><h2 id="contact-title">Reach the NextSDE team.</h2><p>Questions, feedback, or a problem with the site? Send us an email or open a GitHub issue.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:contactus@nextsde.com">Email contactus@nextsde.com <i class="ph ph-envelope" aria-hidden="true"></i></a><a class="button button-outline" href="https://github.com/NextSde-com/landing-page/issues/new" target="_blank" rel="noopener noreferrer">Contact us on GitHub <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div></div></section>
+
+  <section class="closing" aria-labelledby="closing-title"><div class="container closing-content reveal"><span class="section-kicker">Ready when you are</span><h2 id="closing-title">Make your next session count.</h2><p>Pick a question, open a lesson, or build a system today.</p><a class="button button-light" href="/">Start practicing <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div></section>
+</main>
+<footer><div class="container footer-main"><div><a class="footer-brand" href="#main"><img src="media/nextsde-logo-dark.webp" alt="NextSDE" width="310" height="120"></a><p>Learn the idea. Watch it run. Solve the question.</p></div><nav aria-label="Workspace"><b>Workspace</b><a href="/">Practice</a><a href="/courses/">Courses</a><a href="/lld/">Low level design</a><a href="/resume/">Resume builder</a></nav><nav aria-label="On this page"><b>On this page</b><a href="#why">Why this workspace</a><a href="#faq">Questions</a><a href="#contact">Contact us</a></nav></div><div class="container footer-bottom"><span>NextSDE</span><a href="#main">Back to top ↑</a></div><div class="footer-wordmark footer-logo" aria-hidden="true"><img src="media/nextsde-logo-dark-full.webp" alt="" width="2016" height="780" loading="lazy"></div></footer>
+</body>
+</html>
