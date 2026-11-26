@@ -4,9 +4,9 @@ This folder is a static copy of the existing NextSDE home page. It can be placed
 
 ## Before publishing
 
-1. Product links currently open the local `coming-soon.html` page through `site-config.js`. Update that function when Practice, Courses, LLD, and Resume have live destinations.
-2. The main `index.html` is indexable, with a canonical URL, `robots.txt` and `sitemap.xml` for https://nextsde.com/. `v2/`, `coming-soon.html` and `404.html` stay `noindex`.
-3. Set an absolute social preview image URL after the final landing domain is known.
+1. Product links in `index.html` point to `coming-soon.html` (and `_redirects` sends /courses, /lld, /resume, /practice there). Update them when Practice, Courses, LLD, and Resume have live destinations.
+2. `index.html` is indexable, with a canonical URL, `robots.txt` and `sitemap.xml` for https://nextsde.com/. `coming-soon.html` and `404.html` stay `noindex`.
+3. The social preview image uses the absolute URL https://nextsde.com/media/practice.webp.
 
 Upload the contents of this folder as the repository root. For Cloudflare deployment, select the intended account in the CLI at deploy time. This folder contains no Cloudflare account ID, token, or deployment configuration tied to an account.
 

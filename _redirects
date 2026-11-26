@@ -6,3 +6,5 @@
 /resume/* /coming-soon 302
 /practice /coming-soon 302
 /practice/* /coming-soon 302
+/v2 / 301
+/v2/* / 301

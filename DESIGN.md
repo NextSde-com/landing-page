@@ -1,4 +1,4 @@
-# NextSDE landing page v2
+# NextSDE landing page
 
 ## Design
 
@@ -10,7 +10,7 @@
 
 ## Links
 
-Product routes (practice, courses, LLD, resume) point to `../coming-soon.html` until those pages launch. Shared images and the 3D PC bundle load from the root `media/` folder.
+Product routes (practice, courses, LLD, resume) point to `coming-soon.html` until those pages launch. Shared images and the 3D PC bundle load from `media/`.
 
 ## Queue preview
 
